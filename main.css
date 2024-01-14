@@ -1,0 +1,32 @@
+h1{
+    color: red;
+}
+#first{
+    color:aqua;
+}
+
+.second.third{
+    color:chocolate;
+}
+
+ul > li{
+    font-size:smaller;
+    color:brown;
+}
+h3, li{
+    color:red;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    /* có thể kết hợp dạng màu chuyển + ảnh */
+    /* background-image: linear-gradient(0, #333, #ccc); */
+    background-image: linear-gradient(0, rgba(0, 255, 255, 0.5),rgba(234, 556, 34, 0.5));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* Tận dung repeat 
+    -> tạo hình ảnh lặp lại*/
+
+    margin-bottom: 100px;
+}
